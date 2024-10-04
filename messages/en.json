@@ -1,0 +1,13 @@
+{
+    "HomePage": {
+      "title": "Hello world!",
+      "about": "Go to the about page"
+    },
+    "language":"en",
+    "navLikns":{
+      "home":"Home",
+      "store":"Store",
+      "profile":"Profile"
+    },
+    "footer":"© 2024 Roland. All rights reserved."
+  }

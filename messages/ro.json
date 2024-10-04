@@ -1,0 +1,15 @@
+{
+    "HomePage": {
+      "title": "Buna!",
+      "about": "Go to the about page"
+    },
+    "language":"ro",
+    "navLikns":{
+      "home":"Acasa",
+      "store":"Magazin",
+      "profile":"Profil"
+    },
+    "footer":"© 2024 Roland. Toate drepturile rezervate."
+
+
+  }
