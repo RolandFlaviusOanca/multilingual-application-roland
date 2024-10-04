@@ -15,7 +15,7 @@ export default function HeaderLinks() {
 	const navLinks: TNavLink[] = [
 		{
 			name: t("navLikns.home"),
-			path: "/home",
+			path: "/",
 			icon: House,
 			disabled: false,
 		},

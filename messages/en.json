@@ -1,13 +1,36 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
-    },
-    "language":"en",
-    "navLikns":{
-      "home":"Home",
-      "store":"Store",
-      "profile":"Profile"
-    },
-    "footer":"© 2024 Roland. All rights reserved."
-  }
+	"language": "en",
+	"navLikns": {
+		"home": "Home",
+		"store": "Store",
+		"profile": "Profile"
+	},
+	"homeHero": {
+		"title": "Welcome to My Home Page",
+		"text": "This is a simple static home page created with Next.js and React. It showcases some basic content and styling.",
+		"cta": "Learn More"
+	},
+	"homeAbout": {
+		"title": "About Our Project",
+		"text": "We're on a mission to revolutionize web development with cutting-edge tools and technologies. Our platform empowers developers to build faster, more efficient, and highly scalable web applications.",
+		"ourValues": [
+			{
+				"title": "Lightning Fast",
+				"text": "Optimized for speed and performance"
+			}, 
+      {
+        "title": "Secure",
+				"text": "Built-in security features to protect your data"
+      },
+      {
+        "title": "Scalable",
+				"text": "Easily scale your application as you grow"
+      },
+      {
+        "title": "Collaborative",
+				"text": "Built for teams of all sizes"
+      }
+		]
+	},
+	"footer": "© 2024 Roland. All rights reserved."
+}

@@ -1,10 +1,17 @@
-import Image from "next/image";
+
 import styles from "./page.module.scss";
-import { useTranslations } from "next-intl";
+
+import HomepageAbout from "@/components/homepage/homepage-about/homepage-about";
+import HomepageHero from "@/components/homepage/homepage-hero/Homepage-hero";
 
 export default function Home() {
-  const t = useTranslations('HomePage');
-  return (
-    <h1>{t('title')}</h1>
-  );
+	return (
+		<>
+			<HomepageHero />
+      <div className={styles.divider}/>
+			<HomepageAbout />
+      <div className={styles.divider}/>
+
+		</>
+	);
 }

@@ -1,0 +1,21 @@
+.heroWrapper {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+    .col {
+        width: 48%;
+        .divider{ 
+            height: 28px;
+        }
+        .imgWrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

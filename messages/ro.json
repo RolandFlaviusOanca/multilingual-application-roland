@@ -1,14 +1,39 @@
 {
-    "HomePage": {
-      "title": "Buna!",
-      "about": "Go to the about page"
-    },
+
     "language":"ro",
     "navLikns":{
       "home":"Acasa",
       "store":"Magazin",
       "profile":"Profil"
     },
+    "homeHero":{
+      "title":"Bine ați venit pe pagina mea de pornire",
+      "text":"Aceasta este o pagină de pornire statică simplă creată cu Next.js și React. Prezintă conținut și stil de bază.",
+      "cta":"Afla mai mult"
+    },
+    "homeAbout":{
+      "title":"Despre proiectul nostru",
+      "text":"Avem misiunea de a revoluționa dezvoltarea web cu instrumente și tehnologii de ultimă oră. Platforma noastră dă putere dezvoltatorilor să creeze aplicații web mai rapide, mai eficiente și foarte scalabile",
+      "ourValues": [
+			{
+				"title": "Rapid",
+				"text": "Optimizat pentru performanță"
+			}, 
+      {
+        "title": "Sigut",
+				"text": "Funcții de securitate încorporate pentru a vă proteja datele"
+      },
+      {
+        "title": "Scalabil",
+				"text": "Scalați-vă cu ușurință aplicația pe măsură ce creșteți"
+      },
+      {
+        "title": "Colaborativ",
+				"text": "Construit pentru echipe de toate dimensiunile"
+      }
+		]
+    },
+
     "footer":"© 2024 Roland. Toate drepturile rezervate."
 
 

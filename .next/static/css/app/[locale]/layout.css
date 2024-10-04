@@ -1,0 +1,172 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[3].use[1]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[3].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/font/local/target.css?{"path":"src/app/[locale]/layout.tsx","import":"","arguments":[{"src":"./fonts/GeistVF.woff","variable":"--font-geist-sans","weight":"100 900"}],"variableName":"geistSans"} ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__geistSans_1e4310';
+src: url(/_next/static/media/4473ecc91f70f139-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: '__geistSans_Fallback_1e4310';src: local("Arial");ascent-override: 85.83%;descent-override: 20.52%;line-gap-override: 9.33%;size-adjust: 107.19%
+}.__className_1e4310 {font-family: '__geistSans_1e4310', '__geistSans_Fallback_1e4310'
+}.__variable_1e4310 {--font-geist-sans: '__geistSans_1e4310', '__geistSans_Fallback_1e4310'
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[3].use[1]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[3].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/font/local/target.css?{"path":"src/app/[locale]/layout.tsx","import":"","arguments":[{"src":"./fonts/GeistMonoVF.woff","variable":"--font-geist-mono","weight":"100 900"}],"variableName":"geistMono"} ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+font-family: '__geistMono_c3aa02';
+src: url(/_next/static/media/463dafcda517f24f-s.p.woff) format('woff');
+font-display: swap;
+font-weight: 100 900;
+}@font-face {font-family: '__geistMono_Fallback_c3aa02';src: local("Arial");ascent-override: 69.97%;descent-override: 16.73%;line-gap-override: 7.61%;size-adjust: 131.49%
+}.__className_c3aa02 {font-family: '__geistMono_c3aa02', '__geistMono_Fallback_c3aa02'
+}.__variable_c3aa02 {--font-geist-mono: '__geistMono_c3aa02', '__geistMono_Fallback_c3aa02'
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/header/header.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.header_navbar__C_PwB {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #313131;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header_navbar__C_PwB .header_logo__9b1Md {
+  font-size: 35px;
+  font-weight: 800;
+}
+.header_navbar__C_PwB .header_navLinks__UjXuF {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.header_navbar__C_PwB .header_navLinks__UjXuF li {
+  min-width: 100px;
+}
+.header_navbar__C_PwB .header_navLinks__UjXuF li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.header_navbar__C_PwB .header_navLinks__UjXuF li a:hover {
+  color: #4caf50;
+}
+.header_navbar__C_PwB .header_navLinks__UjXuF li a span {
+  width: 10px;
+}
+.header_navbar__C_PwB .header_languageSwitcher__fhUVQ button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #4caf50;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 50px;
+}
+.header_navbar__C_PwB .header_languageSwitcher__fhUVQ button:hover {
+  background-color: rgba(76, 175, 80, 0.15);
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/footer/footer.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.footer_footer__mQF6i {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #0a0f0d;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 1rem;
+  border-top: 2px solid #4caf50;
+}
+.footer_footer__mQF6i p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[12].use[3]!./src/styles/globals.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.container {
+  padding: 100px 200px ;
+}
+
+body {
+  color: var(--foreground);
+  background-color: #0a0f0d;
+  background: radial-gradient(
+    ellipse at bottom center,
+    rgba(76, 175, 80, 0.15) 0%,
+    rgba(76, 175, 80, 0.05) 25%,
+    rgba(10, 15, 13, 0) 50%
+  );
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 52px;
+  margin-bottom: 10px;
+  /* min-height: 120px; */
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 24px;
+  line-height: 1.3;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+/* *{
+  border: 1px solid red;
+} */
