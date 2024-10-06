@@ -1,0 +1,42 @@
+.flexGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -10px -20px;
+
+    .gridItem {
+        flex: 1 1 calc(22.333% - 20px);
+        margin: 10px;
+        box-sizing: border-box;
+        background-color: transparent;
+        padding: 20px;
+        border: 1px solid #4caf50;
+        border-radius: 18px;
+        text-align: center;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+       
+    }
+
+    .spacer {
+        flex: 1 1 calc(22.333% - 20px); 
+        margin: 10px;
+        box-sizing: border-box;
+        visibility: hidden; 
+    }
+}
+
+@media (max-width: 768px) {
+    .gridItem, .spacer {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .gridItem, .spacer {
+        flex: 1 1 calc(100% - 20px); 
+    }
+}

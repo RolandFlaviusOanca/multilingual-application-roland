@@ -1,16 +1,8 @@
 import { useTranslations } from "next-intl";
 import styles from "./homepageabout.module.scss";
 import { Globe, LucideIcon, Shield, Users, Zap } from "lucide-react";
+import { THomepageAbout } from "@/lib/types";
 
-type THomepageAbout = {
-	title: string;
-	text: string;
-	ourValues: {
-		icon: LucideIcon;
-		title: string;
-		text: string;
-	}[];
-};
 
 export default function HomepageAbout() {
 	const t = useTranslations("homeAbout");

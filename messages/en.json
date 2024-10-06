@@ -2,8 +2,7 @@
 	"language": "en",
 	"navLikns": {
 		"home": "Home",
-		"store": "Store",
-		"profile": "Profile"
+		"team": "Team"
 	},
 	"homeHero": {
 		"title": "Welcome to My Home Page",
@@ -17,20 +16,52 @@
 			{
 				"title": "Lightning Fast",
 				"text": "Optimized for speed and performance"
-			}, 
-      {
-        "title": "Secure",
+			},
+			{
+				"title": "Secure",
 				"text": "Built-in security features to protect your data"
-      },
-      {
-        "title": "Scalable",
+			},
+			{
+				"title": "Scalable",
 				"text": "Easily scale your application as you grow"
-      },
-      {
-        "title": "Collaborative",
+			},
+			{
+				"title": "Collaborative",
 				"text": "Built for teams of all sizes"
-      }
+			}
 		]
 	},
+	"form": {
+    "title":"Get in touch",
+		"firstName": "First Name",
+		"lastName": "Last Name",
+		"email": "Email",
+		"phoneNumber": "Phone Number",
+		"description": "Description",
+		"submit": "Submit"
+	},
+	"validation": {
+		"firstName": {
+			"min": "First name must be at least 2 characters",
+			"max": "First name can't exceed 50 characters"
+		},
+		"lastName": {
+			"min": "Last name must be at least 2 characters",
+			"max": "Last name can't exceed 50 characters"
+		},
+		"email": {
+			"invalid": "Invalid email address"
+		},
+		"phoneNumber": {
+			"min": "Phone number must be at least 10 digits",
+			"max": "Phone number can't exceed 15 digits"
+		},
+		"description": {
+			"min": "Description is requierd",
+			"max": "Description can't exceed 500 characters"
+		}
+	},
+	"addFavorite":"Add contact to favorit",
+	"removeFavorite":"Remove contact to favorit",
 	"footer": "© 2024 Roland. All rights reserved."
 }

@@ -2,13 +2,7 @@ import { useTranslations } from "next-intl";
 import styles from "./homepagehero.module.scss";
 import Image from "next/image";
 import Button from "../../ui/button/button";
-
-type THomepageHero = {
-	title: string;
-	text: string;
-	cta: string;
-	img: string;
-};
+import { THomepageHero } from "@/lib/types";
 
 export default function HomepageHero() {
 	const t = useTranslations("homeHero");

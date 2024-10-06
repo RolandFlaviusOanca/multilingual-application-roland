@@ -3,10 +3,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #313131;
+    background-color: #1b1b1b;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
     .logo {
        font-size: 35px;
        font-weight: 800;

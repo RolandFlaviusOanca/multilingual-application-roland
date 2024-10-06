@@ -1,17 +1,17 @@
+import HomepageHero from "@/components/homepage/homepage-hero/homepage-hero";
+import HomepageAbout from "@/components/homepage/homepage-about/homepage-about";
 
 import styles from "./page.module.scss";
-
-import HomepageAbout from "@/components/homepage/homepage-about/homepage-about";
-import HomepageHero from "@/components/homepage/homepage-hero/Homepage-hero";
+import HomepageForm from "@/components/homepage/homepage-form/homepage-from";
 
 export default function Home() {
 	return (
 		<>
 			<HomepageHero />
-      <div className={styles.divider}/>
+			<div className={styles.divider} />
 			<HomepageAbout />
-      <div className={styles.divider}/>
-
+			<HomepageForm />
+			<div className={styles.divider} />
 		</>
 	);
 }

@@ -1,27 +1,24 @@
-import { House, LucideIcon, Store, User } from "lucide-react";
+"use client";
+import { TNavLink } from "@/lib/types";
+import { House, Store } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-
-type TNavLink = {
-	name: string;
-	path: string;
-	icon: LucideIcon;
-	disabled?: boolean;
-};
+import { usePathname } from "next/navigation";
 
 export default function HeaderLinks() {
 	const t = useTranslations("");
-
+	const pathname = usePathname();
+	const currentLocale = pathname.includes("/ro") ? "ro" : "en";
 	const navLinks: TNavLink[] = [
 		{
 			name: t("navLikns.home"),
-			path: "/",
+			path: `/${currentLocale}`,
 			icon: House,
 			disabled: false,
 		},
 		{
-			name: t("navLikns.store"),
-			path: "/store",
+			name: t("navLikns.team"),
+			path: `/${currentLocale}/team`,
 			icon: Store,
 			disabled: false,
 		},

@@ -1,0 +1,40 @@
+.userCardHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+	img {
+		border-radius: 100%;
+		width: 60px;
+		height: 60px;
+	}
+
+	h3 {
+		font-size: 22px;
+		text-align: left;
+	}
+}
+.flex {
+	display: flex;
+	flex-direction: column;
+
+	.flex_item {
+		display: flex;
+		gap: 10px;
+		margin: 10px 0;
+		p {
+			font-size: 16px;
+			text-align: left;
+		}
+	}
+}
+.button {
+	width: 100%;
+	margin: 10px 0;
+}
+.danger {
+    background-color: red!important;
+    color: white;
+    width: 100%;
+	margin: 10px 0;
+}

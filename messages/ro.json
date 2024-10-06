@@ -3,8 +3,7 @@
     "language":"ro",
     "navLikns":{
       "home":"Acasa",
-      "store":"Magazin",
-      "profile":"Profil"
+      "team":"Echipa"
     },
     "homeHero":{
       "title":"Bine ați venit pe pagina mea de pornire",
@@ -33,7 +32,38 @@
       }
 		]
     },
-
+    "form": {
+    "title":"Luați legătura",
+      "firstName": "Prenume",
+      "lastName": "Nume",
+      "email": "Email",
+      "phoneNumber": "Numar de telefon",
+      "description": "Descriere",
+      "submit": "Trimite"
+    },
+    "validation": {
+      "firstName": {
+        "min": "Prenumele trebuie să aibă cel puțin 2 caractere",
+        "max": "Prenumele nu poate depăși 50 de caractere"
+      },
+      "lastName": {
+        "min": "Numele de familie trebuie să aibă cel puțin 2 caractere",
+        "max": "Numele de familie nu poate depăși 50 de caractere"
+      },
+      "email": {
+        "invalid": "Adresă de e-mail nevalidă"
+      },
+      "phoneNumber": {
+        "min": "Numărul de telefon trebuie să aibă cel puțin 10 cifre",
+        "max": "Numărul de telefon nu poate depăși 15 cifre"
+      },
+      "description": {
+        "min":"Este necesară descrierea",
+        "max": "Descrierea nu poate depăși 500 de caractere"
+      }
+    },
+    "addFavorite":"Adauga contactul la lista de favorite",
+	"removeFavorite":"Sterge contactul la lista de favorite",
     "footer":"© 2024 Roland. Toate drepturile rezervate."
 
 

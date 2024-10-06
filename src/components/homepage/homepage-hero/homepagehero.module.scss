@@ -3,7 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap:50px;
+    gap:120px;
+    h1 {
+        width: 85%;
+    }
     .col {
         width: 48%;
         .divider{ 
