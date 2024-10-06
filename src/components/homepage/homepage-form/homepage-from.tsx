@@ -6,9 +6,9 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { useTranslations } from "next-intl";
 import { z } from "zod";
-import Button from "@/components/ui/button/button";
 import styles from "./homepageform.module.scss";
 import Textarea from "@/components/ui/textarea/textarea";
+import Button from "@/components/ui/button/button";
 
 export default function HomepageForm() {
 	const t = useTranslations();
