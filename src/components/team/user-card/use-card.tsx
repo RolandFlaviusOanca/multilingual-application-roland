@@ -1,14 +1,14 @@
 'use client'
 import Image from "next/image";
 import styles from "./usercard.module.scss";
-import { UserCardProps } from "@/lib/types";
 import UserInfo from "./user-info";
 import Button from "@/components/ui/button/button";
 import { useTranslations } from "next-intl";
 import { useAtom } from "jotai";
-import { favoritesWithPersistenceAtom } from "@/atoms/favoritesAtom";
+
 import { useCallback, useEffect, useState } from "react";
 import { UserType } from "@/lib/types"; 
+import { favoritesWithPersistenceAtom } from "@/atoms/favoritesAtom";
 
 export default function UserCard({ user }: { user: UserType }) {
     const [favorites, setFavorites] = useAtom(favoritesWithPersistenceAtom);

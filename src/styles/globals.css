@@ -48,7 +48,7 @@ a {
 h1 {
   font-size: 52px;
   margin-bottom: 10px;
-  /* min-height: 120px; */
+
 }
 
 h2 {
@@ -64,6 +64,22 @@ p {
     color-scheme: dark;
   }
 }
-/* *{
-  border: 1px solid red;
-} */
+@media (max-width: 1024px) {
+  .container {
+    padding: 50px 100px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 30px 50px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 30px; 
+  }
+}

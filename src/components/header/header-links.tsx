@@ -1,6 +1,6 @@
 "use client";
 import { TNavLink } from "@/lib/types";
-import { House, Store } from "lucide-react";
+import { House, Users } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -19,7 +19,7 @@ export default function HeaderLinks() {
 		{
 			name: t("navLikns.team"),
 			path: `/${currentLocale}/team`,
-			icon: Store,
+			icon: Users,
 			disabled: false,
 		},
 	];

@@ -26,8 +26,8 @@ export default function HomepageHero() {
 			<div className={styles.col}>
 				<div className={styles.imgWrapper}>
 					<Image
-						width={350}
-						height={350}
+						width={450}
+						height={450}
 						src={homepageHeroContent.img}
 						alt="hero-image"
 					/>

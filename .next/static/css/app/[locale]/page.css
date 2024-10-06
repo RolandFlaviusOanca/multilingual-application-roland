@@ -1,0 +1,278 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/ui/Input/input.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.input_inputContainer__wUVJg {
+  margin-bottom: 1.5rem;
+}
+.input_inputContainer__wUVJg label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+}
+.input_inputContainer__wUVJg input {
+  width: 100%;
+  padding: 0.625rem;
+  font-size: 1rem;
+  border: 1px solid rgba(57, 134, 60, 0.9607843137);
+  border-radius: 0.25rem;
+  transition: border-color 0.3s;
+}
+.input_inputContainer__wUVJg input:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+.input_inputContainer__wUVJg input.input_inputError__D4eQS {
+  border-color: red;
+}
+.input_inputContainer__wUVJg .input_errorMessage__056TI {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.3125rem;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/ui/button/Button.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__9Ya7B {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(57, 134, 60, 0.9607843137);
+  color: white;
+  transition: background-color 0.3s ease;
+}
+.Button_button__9Ya7B:hover {
+  background-color: #4caf50;
+}
+.Button_button__9Ya7B:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/homepage/homepage-form/homepageform.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.homepageform_formCard__ayVV7 {
+  background-color: transparent;
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  max-width: 80%;
+  margin: auto;
+  border: 1px solid #4caf50;
+}
+.homepageform_formCard__ayVV7 h2 {
+  margin-bottom: 20px;
+}
+.homepageform_formCard__ayVV7 .homepageform_inputGroup__cip7s {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+@media (max-width: 768px) {
+  .homepageform_formCard__ayVV7 .homepageform_inputGroup__cip7s {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+.homepageform_formCard__ayVV7 .homepageform_inputContainer__HEvJN {
+  flex: 1 1;
+  margin-right: 10px;
+}
+.homepageform_formCard__ayVV7 .homepageform_inputContainer__HEvJN:last-child {
+  margin-right: 0;
+}
+@media (max-width: 768px) {
+  .homepageform_formCard__ayVV7 .homepageform_inputContainer__HEvJN {
+    margin-right: 0;
+  }
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/ui/textarea/textarea.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.textarea_textareaContainer__pxuL7 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.textarea_textareaContainer__pxuL7 label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: white;
+  font-weight: bold;
+}
+.textarea_textareaContainer__pxuL7 textarea {
+  resize: none;
+  padding: 12px;
+  border: 1px solid rgba(57, 134, 60, 0.9607843137);
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+.textarea_textareaContainer__pxuL7 textarea:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+.textarea_textareaContainer__pxuL7 textarea.textarea_inputError__BGIUG {
+  border-color: red;
+}
+.textarea_textareaContainer__pxuL7 .textarea_errorMessage__LERmG {
+  margin-top: 4px;
+  color: red;
+  font-size: 14px;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/homepage/homepage-hero/homepagehero.module.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.homepagehero_heroWrapper__HfmED {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
+  flex-wrap: nowrap;
+}
+.homepagehero_heroWrapper__HfmED h1 {
+  font-size: 52px;
+  width: 100%;
+}
+.homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo {
+  flex: 1 1;
+  text-align: left;
+}
+.homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo .homepagehero_divider__rbb7e {
+  height: 28px;
+}
+.homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo .homepagehero_imgWrapper__NLkkI {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 230px;
+}
+.homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo .homepagehero_imgWrapper__NLkkI img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 1024px) {
+  .homepagehero_heroWrapper__HfmED {
+    gap: 60px;
+  }
+  .homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo {
+    text-align: left;
+  }
+}
+@media (max-width: 768px) {
+  .homepagehero_heroWrapper__HfmED {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .homepagehero_heroWrapper__HfmED h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo {
+    width: 100%;
+    text-align: center;
+  }
+  .homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo .homepagehero_divider__rbb7e {
+    height: 20px;
+  }
+  .homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo img {
+    height: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .homepagehero_heroWrapper__HfmED {
+    gap: 20px;
+  }
+  .homepagehero_heroWrapper__HfmED h1 {
+    font-size: 48px;
+  }
+  .homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo .homepagehero_divider__rbb7e {
+    height: 15px;
+  }
+  .homepagehero_heroWrapper__HfmED .homepagehero_col__z3xbo img {
+    height: 300px;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/components/homepage/homepage-about/homepageabout.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.homepageabout_ourValues__qNURl {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 100px;
+}
+.homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  text-align: center;
+}
+.homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ .homepageabout_icon__GkYng {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(57, 134, 60, 0.9607843137);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ h4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  min-height: 40px;
+}
+.homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ p {
+  flex-grow: 1;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .homepageabout_ourValues__qNURl {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .homepageabout_ourValues__qNURl {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ {
+    width: 90%;
+    max-width: 300px;
+  }
+  .homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ h4 {
+    font-size: 24px;
+  }
+  .homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+  .homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ h4 {
+    font-size: 20px;
+  }
+  .homepageabout_ourValues__qNURl .homepageabout_ourValuesItem__S9wN_ p {
+    font-size: 14px;
+  }
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[2]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[9].use[3]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[9].use[4]!./node_modules/.pnpm/next@14.2.14_react-dom@18.3.1_react@18.3.1_sass@1.79.4/node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[9].use[5]!./src/app/[locale]/page.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_divider__DqRq7 {
+  height: 80px;
+}

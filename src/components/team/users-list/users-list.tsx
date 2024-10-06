@@ -2,7 +2,6 @@
 import styles from "./userlist.module.scss";
 import UserCard from "../user-card/use-card";
 import { TUserPage } from "@/lib/types";
-import { Suspense } from "react";
 
 export default function UsersList({ data }: TUserPage) {
 	const itemsPerRow = 4;

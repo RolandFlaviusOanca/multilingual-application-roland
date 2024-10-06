@@ -1,40 +1,66 @@
 .userCardHeader {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	gap: 30px;
-	img {
-		border-radius: 100%;
-		width: 60px;
-		height: 60px;
-	}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
 
-	h3 {
-		font-size: 22px;
-		text-align: left;
-	}
+    img {
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+
+        @media (max-width: 768px) {
+            width: 50px; 
+            height: 50px;
+        }
+    }
+
+    h3 {
+        font-size: 22px;
+        text-align: left;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
+    }
 }
+
 .flex {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
-	.flex_item {
-		display: flex;
-		gap: 10px;
-		margin: 10px 0;
-		p {
-			font-size: 16px;
-			text-align: left;
-		}
-	}
+    .flex_item {
+        display: flex;
+        gap: 10px;
+        margin: 10px 0;
+
+        p {
+            font-size: 16px;
+            text-align: left;
+
+            @media (max-width: 768px) {
+                font-size: 14px; 
+            }
+        }
+    }
 }
+
 .button {
-	width: 100%;
-	margin: 10px 0;
+    width: 100%;
+    margin: 10px 0;
+
+    @media (max-width: 768px) {
+        margin: 8px 0;
+    }
 }
+
 .danger {
-    background-color: red!important;
+    background-color: red !important;
     color: white;
     width: 100%;
-	margin: 10px 0;
+    margin: 10px 0;
+
+    @media (max-width: 768px) {
+        margin: 8px 0; 
+    }
 }
